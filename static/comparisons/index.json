@@ -1,0 +1,1006 @@
+{
+  "methods": [
+    {
+      "id": "chord",
+      "label": "CHORD",
+      "ours": false
+    },
+    {
+      "id": "animate-any-mesh",
+      "label": "AnimateAnyMesh",
+      "ours": false
+    },
+    {
+      "id": "agent",
+      "label": "Agent Scene Animation (GPT-6)",
+      "ours": false
+    },
+    {
+      "id": "uniworld",
+      "label": "UniWorld-View",
+      "ours": false
+    },
+    {
+      "id": "flashchord",
+      "label": "FlashCHORD (ours)",
+      "ours": true
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01_sandbag_trampoline",
+      "label": "Sandbag & trampoline",
+      "prompt": "A sandbag falls onto a trampoline and bounces back up.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-01-sandbag_trampoline-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-01-sandbag_trampoline-flashchord.jpg",
+            "sha256": "453a06c7ae3b25b1824510d1e8877f69f2dc8b05bb6d13ead6e4a4f6873a7696"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-01-sandbag_trampoline-chord.mp4",
+            "poster": "./static/comparisons/posters/review-01-sandbag_trampoline-chord.jpg",
+            "sha256": "0c7f55ff84a46fe715a7f5057d51dc9cca01833befbb775cfe71d5be3506a647"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-01-sandbag_trampoline-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-01-sandbag_trampoline-animate-any-mesh.jpg",
+            "sha256": "6219f9dce48a44cd856b189b8938a245b59306ef8b9215671d0c1d5ef79f54c6"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 4.75,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-01-sandbag_trampoline-agent.mp4",
+            "poster": "./static/comparisons/posters/review-01-sandbag_trampoline-agent.jpg",
+            "sha256": "00051ed6266d1f31157be746e878a8155b3ccd3d60a7b4e9047ab10f8fdc624b"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.541667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-01-sandbag_trampoline-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-01-sandbag_trampoline-uniworld.jpg",
+            "sha256": "5c56407818c452cf4e153802fb28ec76ce91c5876d43cab88e001b3a3c99897d"
+          }
+        }
+      }
+    },
+    {
+      "id": "02_rocking_chair",
+      "label": "Sit & rock",
+      "prompt": "A man sits in a rocking chair and leans back.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-02-rocking_chair-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-02-rocking_chair-flashchord.jpg",
+            "sha256": "3913216d2b5a5427a5dd7302de3ee98efd7a7b47d171e94a96c9be639f3b7ddc"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-02-rocking_chair-chord.mp4",
+            "poster": "./static/comparisons/posters/review-02-rocking_chair-chord.jpg",
+            "sha256": "8e81c07f10765286d3de43a24dfac919cc9177da294b54c6e33690cccde41e62"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-02-rocking_chair-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-02-rocking_chair-animate-any-mesh.jpg",
+            "sha256": "144c543786090bace9a488ca950a4acc6ba60f355dbcccc03b0f13b71fbe93a4"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.75,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-02-rocking_chair-agent.mp4",
+            "poster": "./static/comparisons/posters/review-02-rocking_chair-agent.jpg",
+            "sha256": "dd461f1683bbe617df3ebd2299453cd77fbe345ad0c5c037e868e37c977939ab"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.541667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-02-rocking_chair-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-02-rocking_chair-uniworld.jpg",
+            "sha256": "009913083141d78532bc9cf96c66eb571f080b560be3a825020292ff2a559a62"
+          }
+        }
+      }
+    },
+    {
+      "id": "03_high_five",
+      "label": "High five",
+      "prompt": "Two men high-five each other.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-03-high_five-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-03-high_five-flashchord.jpg",
+            "sha256": "eb6c5fe5db2cefc27d5d485d04e77904df929d656348b1780210c837be512c81"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-03-high_five-chord.mp4",
+            "poster": "./static/comparisons/posters/review-03-high_five-chord.jpg",
+            "sha256": "5e302f503b5d1ac47dfde8596577317d139ae13456d4e2b4fdf106d99d59a288"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-03-high_five-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-03-high_five-animate-any-mesh.jpg",
+            "sha256": "08bcc2d2d5fbcf888d2c262bfa37b5caccb9ee1d000ff32d629eaf8095055bef"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.5,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-03-high_five-agent.mp4",
+            "poster": "./static/comparisons/posters/review-03-high_five-agent.jpg",
+            "sha256": "27e38a08f1c44545e71839499cf2a9c630bcc3161ecc87166fde536b75b74e09"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.541667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-03-high_five-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-03-high_five-uniworld.jpg",
+            "sha256": "8e0fb03d872939cb43a61a9ee846e4cb7084c30dafc93a745909b86bcade8249"
+          }
+        }
+      }
+    },
+    {
+      "id": "04_cat_cushion",
+      "label": "Cat raises cushion",
+      "prompt": "A cat lifts a cushion with its front paws.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-04-cat_raises_cushion-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-04-cat_raises_cushion-flashchord.jpg",
+            "sha256": "de141911ca05633410e44fb959d3cd7a683b0412d5c41133c965cd2014ee29c0"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-04-cat_raises_cushion-chord.mp4",
+            "poster": "./static/comparisons/posters/review-04-cat_raises_cushion-chord.jpg",
+            "sha256": "71fa66c4f0c3a52d593b911bfdf6907195f9e60264b431ab4ed35012b2dafec5"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-04-cat_raises_cushion-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-04-cat_raises_cushion-animate-any-mesh.jpg",
+            "sha256": "1fd52ca8125fac0856a6dd9979d665d7557eba32d315474ed792aa8b9fe7143a"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 4.875,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-04-cat_raises_cushion-agent.mp4",
+            "poster": "./static/comparisons/posters/review-04-cat_raises_cushion-agent.jpg",
+            "sha256": "33667e249aa10b24a8edab1862716b1439960603ed1e8831628bf91bc7ac423c"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.541667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-04-cat_raises_cushion-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-04-cat_raises_cushion-uniworld.jpg",
+            "sha256": "c9abf9353a4d86b70328dfa82b9ad2b2a5caf7e3f0f17c492c3f4ce377f7d03c"
+          }
+        }
+      }
+    },
+    {
+      "id": "05_cowboy_horse",
+      "label": "Mounting a horse",
+      "prompt": "A cowboy mounts a horse.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-05-cowboy_horse-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-05-cowboy_horse-flashchord.jpg",
+            "sha256": "6d17ee3e87b7573ac87d973fa237a219e5609e836d65d67b184be925b32178db"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-05-cowboy_horse-chord.mp4",
+            "poster": "./static/comparisons/posters/review-05-cowboy_horse-chord.jpg",
+            "sha256": "7cea33f380d03f7c38b1532fb9569dea257cec8c445fb8422862a57d12b8fbb6"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-05-cowboy_horse-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-05-cowboy_horse-animate-any-mesh.jpg",
+            "sha256": "307bd35b3da1aa83340641de664635616aa6e20dcc353d37a3a74abb8fcbe8f7"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.5,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-05-cowboy_horse-agent.mp4",
+            "poster": "./static/comparisons/posters/review-05-cowboy_horse-agent.jpg",
+            "sha256": "b80c00e0e5f320c625010327e0ab65ae3aa167058a0ae232af8c756930b936a0"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.541667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-05-cowboy_horse-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-05-cowboy_horse-uniworld.jpg",
+            "sha256": "9b923fba048310461fc7444379c4edef5e48f1cb998f06a1afedb0290ab233de"
+          }
+        }
+      }
+    },
+    {
+      "id": "06_exercise_ball",
+      "label": "Exercise ball",
+      "prompt": "A man sits on an exercise ball and bounces.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-06-exercise_ball-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-06-exercise_ball-flashchord.jpg",
+            "sha256": "51fc0e397e628f694c41501c7c8422c3674651e743625649b19877f36b02f884"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-06-exercise_ball-chord.mp4",
+            "poster": "./static/comparisons/posters/review-06-exercise_ball-chord.jpg",
+            "sha256": "d53956533d94968d73bf441afe6cab5be03e9d9152592602f9e4ff156323169e"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-06-exercise_ball-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-06-exercise_ball-animate-any-mesh.jpg",
+            "sha256": "976067858726ef6c2b634337fc4888032acd46f1ba7e6e35c3822c8a185708da"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 4.958333,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-06-exercise_ball-agent.mp4",
+            "poster": "./static/comparisons/posters/review-06-exercise_ball-agent.jpg",
+            "sha256": "8f89848c3e7cb724fc5ef6117c8bf9e2d8580a16b496b845bda71524f1443ee1"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.541667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-06-exercise_ball-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-06-exercise_ball-uniworld.jpg",
+            "sha256": "4e486860110e2155378cf9e670d3bce0485b35a82939e1536df7578a82ea0ba4"
+          }
+        }
+      }
+    },
+    {
+      "id": "cat_under_cushion",
+      "label": "Cat under cushion",
+      "prompt": "A cat burrows under a cushion and lifts its edge.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "970/41",
+            "src": "./static/comparisons/videos/review-07-cat_under_cushion-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-07-cat_under_cushion-flashchord.jpg",
+            "sha256": "8332060dcccdd4f1d72f704cfbcb5831782bb4fb3f4e9346bcc1360b886d03a6"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-07-cat_under_cushion-chord.mp4",
+            "poster": "./static/comparisons/posters/review-07-cat_under_cushion-chord.jpg",
+            "sha256": "f14c492ad7738985546e0fe232545804a4891922af53ae2952783e5c64948801"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-07-cat_under_cushion-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-07-cat_under_cushion-animate-any-mesh.jpg",
+            "sha256": "0770480d76afdbdfada028f2eedef638b9f2e489da4ad495e49d25a80aeaa3dc"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.083333,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-07-cat_under_cushion-agent.mp4",
+            "poster": "./static/comparisons/posters/review-07-cat_under_cushion-agent.jpg",
+            "sha256": "cecc1f9f6b17b6e5410b56a5254480a4534185df2ec3cb716fb3aa83f5863707"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-07-cat_under_cushion-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-07-cat_under_cushion-uniworld.jpg",
+            "sha256": "4fd3f11809269444d652f9eee3177d101dfba4420a6d490de6ffd673bc267485"
+          }
+        }
+      }
+    },
+    {
+      "id": "brick_sponge",
+      "label": "Brick & sponge",
+      "prompt": "A brick falls onto a sponge and compresses it.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "970/41",
+            "src": "./static/comparisons/videos/review-08-brick_sponge-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-08-brick_sponge-flashchord.jpg",
+            "sha256": "ac82f1a7aa5ecad7890ac7e7f4e4e6d2a338c66cc5777014cf84592ff3629f11"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-08-brick_sponge-chord.mp4",
+            "poster": "./static/comparisons/posters/review-08-brick_sponge-chord.jpg",
+            "sha256": "1c96cc010b9c9801465ee042637d3aacbf0a8eb4711878b0f996811d1c7c64c0"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-08-brick_sponge-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-08-brick_sponge-animate-any-mesh.jpg",
+            "sha256": "b4350a252ae947fbfe5288633e271798ad97f3d317593f975340427ff6a7e2bb"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 3.166667,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-08-brick_sponge-agent.mp4",
+            "poster": "./static/comparisons/posters/review-08-brick_sponge-agent.jpg",
+            "sha256": "e4db7e51a4e9d9729facc6692eacc09a0f6ccc149b24904ec499236ff2ef2e1f"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-08-brick_sponge-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-08-brick_sponge-uniworld.jpg",
+            "sha256": "4034abce74ecbe61916d95d8fed0956c24028369f14b346cec982b9ee8f1a05b"
+          }
+        }
+      }
+    },
+    {
+      "id": "goat_headbutt",
+      "label": "Goat headbutt",
+      "prompt": "Two goats butt heads.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "970/41",
+            "src": "./static/comparisons/videos/review-09-goat_headbutt-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-09-goat_headbutt-flashchord.jpg",
+            "sha256": "d55b2e6f1602c347efec87535692e56c67a68f5bc38679125be5ca26013522c1"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-09-goat_headbutt-chord.mp4",
+            "poster": "./static/comparisons/posters/review-09-goat_headbutt-chord.jpg",
+            "sha256": "05a487fc418baa90d5922dafb1533a9fd613f517efcd37c3cfb9d7eb73277e94"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-09-goat_headbutt-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-09-goat_headbutt-animate-any-mesh.jpg",
+            "sha256": "12536adab1ac2ca046ef12590cbb1bbde1ec3e6da1881cffc3db34eac1b6c640"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.666667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-09-goat_headbutt-agent.mp4",
+            "poster": "./static/comparisons/posters/review-09-goat_headbutt-agent.jpg",
+            "sha256": "ea3baa50b4d9c4b18c514f118fb142cef40d3350885de3fe645867d28863320e"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-09-goat_headbutt-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-09-goat_headbutt-uniworld.jpg",
+            "sha256": "a0893b285448c560b085b8d8b7a763bf569ee6dc0e600f2900f829a31432f4aa"
+          }
+        }
+      }
+    },
+    {
+      "id": "kick_dodge",
+      "label": "Kick & dodge",
+      "prompt": "One character kicks while the other dodges.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "970/41",
+            "src": "./static/comparisons/videos/review-10-kick_dodge-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-10-kick_dodge-flashchord.jpg",
+            "sha256": "3e59d33f6181130edb5bc7175f20a4d26fee43d24f3c64cd92846a1b1083aba2"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-10-kick_dodge-chord.mp4",
+            "poster": "./static/comparisons/posters/review-10-kick_dodge-chord.jpg",
+            "sha256": "5717379c51d22b2011364a3604ece2b995bf38bfb3b9afe13189431eecf11a55"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-10-kick_dodge-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-10-kick_dodge-animate-any-mesh.jpg",
+            "sha256": "c8f6d1c80e7b99161da8c3625b424a4088ec1ac38a9f02510688aa6ae989e22b"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.5,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-10-kick_dodge-agent.mp4",
+            "poster": "./static/comparisons/posters/review-10-kick_dodge-agent.jpg",
+            "sha256": "43cc840008b3bf91ece5981d78793a4b4763b2cfb8597ff4a4a56c95fb505d6e"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-10-kick_dodge-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-10-kick_dodge-uniworld.jpg",
+            "sha256": "164aa71f40d7be53d24c80f4f9d8f484994e43d7d9fb987d8911293fcf12d755"
+          }
+        }
+      }
+    },
+    {
+      "id": "rabbit_snake",
+      "label": "Rabbit & snake",
+      "prompt": "A rabbit jumps aside as a snake lunges.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "970/41",
+            "src": "./static/comparisons/videos/review-11-rabbit_snake-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-11-rabbit_snake-flashchord.jpg",
+            "sha256": "e8afed4c25358465e9198b20f7741e7f310f30291419e2841b41551db802002c"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-11-rabbit_snake-chord.mp4",
+            "poster": "./static/comparisons/posters/review-11-rabbit_snake-chord.jpg",
+            "sha256": "7152b9c1048ed55ca946aa6a8a39824dd9764c4bf443edd1051e9383f374a7a6"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-11-rabbit_snake-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-11-rabbit_snake-animate-any-mesh.jpg",
+            "sha256": "31089344b4e42b652e0bed1a8f06fa51a032f92964496dc51379e8c69c8d24b7"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 4.25,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-11-rabbit_snake-agent.mp4",
+            "poster": "./static/comparisons/posters/review-11-rabbit_snake-agent.jpg",
+            "sha256": "9d33747fa13796ff2c66267375252c6c67fac36deb9fe13cb964b04f74e42457"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-11-rabbit_snake-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-11-rabbit_snake-uniworld.jpg",
+            "sha256": "48a8c1f7c043f6f2d0ca7c66bb23d9d4ea8b1e3a4d8082f202cb19d86b87aab2"
+          }
+        }
+      }
+    },
+    {
+      "id": "rope_ladder",
+      "label": "Rope ladder",
+      "prompt": "A person climbs a rope ladder.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "970/41",
+            "src": "./static/comparisons/videos/review-12-rope_ladder-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-12-rope_ladder-flashchord.jpg",
+            "sha256": "f14b74ee9a36cfaa915d21d0c1c84055a17245852e4c773dcbd86bda6663815c"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.1,
+            "width": 720,
+            "height": 720,
+            "fps": "30/1",
+            "src": "./static/comparisons/videos/review-12-rope_ladder-chord.mp4",
+            "poster": "./static/comparisons/posters/review-12-rope_ladder-chord.jpg",
+            "sha256": "d0d097ff1522f6357b5f740e5335e2581ce813c7eb329575531cb0bde3fd9cc6"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-12-rope_ladder-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-12-rope_ladder-animate-any-mesh.jpg",
+            "sha256": "15b9e2e5dfee850ffdeb3b5bb52fabba6de6f1efcdc6d556fd68f119bd3e45a4"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 4.75,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-12-rope_ladder-agent.mp4",
+            "poster": "./static/comparisons/posters/review-12-rope_ladder-agent.jpg",
+            "sha256": "c63681d743646b064eb835a7e37e3703ce92871555dcd0f430193608ea487ce2"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-12-rope_ladder-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-12-rope_ladder-uniworld.jpg",
+            "sha256": "3f6c98adba3cf6b55adf0695a432dc1d62cbc64c42ede25381902e8953a0b0fe"
+          }
+        }
+      }
+    },
+    {
+      "id": "bear_barrel",
+      "label": "Bear & barrel",
+      "prompt": "A bear pushes a barrel, making it roll.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 4.0,
+            "width": 720,
+            "height": 720,
+            "fps": "42/1",
+            "src": "./static/comparisons/videos/review-13-bear_barrel-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-13-bear_barrel-flashchord.jpg",
+            "sha256": "96928e76e38a2d4ec137bc46f0b180348d34c62d5128431323cced59d5082ed4"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 4.0,
+            "width": 720,
+            "height": 720,
+            "fps": "14/1",
+            "src": "./static/comparisons/videos/review-13-bear_barrel-chord.mp4",
+            "poster": "./static/comparisons/posters/review-13-bear_barrel-chord.jpg",
+            "sha256": "5ae62c442d4008037538812165764460afa38a8cb82d3911482750ee50f6a46f"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-13-bear_barrel-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-13-bear_barrel-animate-any-mesh.jpg",
+            "sha256": "84fc8bd6eead84ae54400ae9365bca975db2a6728a65e67c281060ee278933ae"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.76,
+            "width": 720,
+            "height": 720,
+            "fps": "25/1",
+            "src": "./static/comparisons/videos/review-13-bear_barrel-agent.mp4",
+            "poster": "./static/comparisons/posters/review-13-bear_barrel-agent.jpg",
+            "sha256": "24994d028bfbf2c909e0b4355a7e7e7b16d76994f65e8312c91358530d259be9"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-13-bear_barrel-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-13-bear_barrel-uniworld.jpg",
+            "sha256": "12c83d09324be215d7a93f40279f125b44ff97e40755d066566ee5310958d2d7"
+          }
+        }
+      }
+    },
+    {
+      "id": "raccoon_bin_v18",
+      "label": "Raccoon & bin lid",
+      "prompt": "Raccoon pries and holds a bin lid",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "72/1",
+            "src": "./static/comparisons/videos/review-14-raccoon_bin_v18-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-14-raccoon_bin_v18-flashchord.jpg",
+            "sha256": "ff46515d5b0182365efa481e3333144a8212671ea05b2d9ee6adbde88d02d9d8"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-14-raccoon_bin_v18-chord.mp4",
+            "poster": "./static/comparisons/posters/review-14-raccoon_bin_v18-chord.jpg",
+            "sha256": "7c5ae797838d5b456047365b0dda03cbf93b1849affc897eadc6522dca17137e"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-14-raccoon_bin_v18-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-14-raccoon_bin_v18-animate-any-mesh.jpg",
+            "sha256": "637ea5f5b03acac8c0725b53032e9c5b3ba8bec353629a0b6c2cda32985942c6"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 4.083333,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-14-raccoon_bin_v18-agent.mp4",
+            "poster": "./static/comparisons/posters/review-14-raccoon_bin_v18-agent.jpg",
+            "sha256": "b180a366917ac5e9b86d814740c70b3fba1186e558defd0ca5dfb47a52f60a32"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-14-raccoon_bin_v18-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-14-raccoon_bin_v18-uniworld.jpg",
+            "sha256": "0048e22d6876c9e3ac9ce0fd62cfc58a1113a2a9c6b74f86e938bf55e7016302"
+          }
+        }
+      }
+    },
+    {
+      "id": "punching_bag",
+      "label": "Punching bag",
+      "prompt": "A man punches a hanging bag.",
+      "views": [
+        1
+      ],
+      "videos": {
+        "flashchord": {
+          "1": {
+            "duration": 2.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "2328/49",
+            "src": "./static/comparisons/videos/review-15-punching_bag-flashchord.mp4",
+            "poster": "./static/comparisons/posters/review-15-punching_bag-flashchord.jpg",
+            "sha256": "64e44523b92f487a9c13baa7c0883309db3bcf070aee744ff83c864f4364db63"
+          }
+        },
+        "chord": {
+          "1": {
+            "duration": 2.041667,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-15-punching_bag-chord.mp4",
+            "poster": "./static/comparisons/posters/review-15-punching_bag-chord.jpg",
+            "sha256": "a166120d96ac390596dfe6f40865ff4d7e7bc4b0f69970899e3d79dc541bd927"
+          }
+        },
+        "animate-any-mesh": {
+          "1": {
+            "duration": 1.6,
+            "width": 720,
+            "height": 720,
+            "fps": "10/1",
+            "src": "./static/comparisons/videos/review-15-punching_bag-animate-any-mesh.mp4",
+            "poster": "./static/comparisons/posters/review-15-punching_bag-animate-any-mesh.jpg",
+            "sha256": "e09da38ca10cc83f09a46b171816d8e617dd1e9d2bc2e595179f76f1189b3449"
+          }
+        },
+        "agent": {
+          "1": {
+            "duration": 5.5,
+            "width": 720,
+            "height": 720,
+            "fps": "24/1",
+            "src": "./static/comparisons/videos/review-15-punching_bag-agent.mp4",
+            "poster": "./static/comparisons/posters/review-15-punching_bag-agent.jpg",
+            "sha256": "03df52842c622d3ff126d8c1266bd7b8eaccd5ddd9044e9d4619f90a7b1063d4"
+          }
+        },
+        "uniworld": {
+          "1": {
+            "duration": 2.333333,
+            "width": 720,
+            "height": 720,
+            "fps": "123/7",
+            "src": "./static/comparisons/videos/review-15-punching_bag-uniworld.mp4",
+            "poster": "./static/comparisons/posters/review-15-punching_bag-uniworld.jpg",
+            "sha256": "44bbf9471fcadcf9bbcc9f578de965223cb4e75fca09e485749377e1cd300b71"
+          }
+        }
+      }
+    }
+  ]
+}
